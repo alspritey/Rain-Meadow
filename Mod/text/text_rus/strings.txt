@@ -24,6 +24,7 @@ Failed to join lobby.<LINE>|Не удалось присоединиться к 
 Password Required|Пароль:
 Wrong password!|Неверный пароль!
 Joining lobby...|Присоединение к лобби...
+(Attempt <NUM>)|(Попытка: <NUM>)
 Pinned:|Закреплено:
 Online:|Онлайн:
 Lobbies:|Лобби:
@@ -162,6 +163,7 @@ How long the countdown will wait for everyone to join. Default : 300 ticks (7.5s
 Replace holding with toggling|Заменить удержание на переключение.
 Key used for toggling spectator mode|Включить/выключить режим наблюдения
 Stop Inputs While Spectating|Отключить управление во время наблюдения
+Use simpler slugcat indicator icons above usernames|Более простые иконки слизнекотов над именами
 Control which mods are permitted on clients by editing the files below.<LINE>Instructions included within.|Можно изменить список разрешённых/запрещённых модов в твоем лобби.<LINE>Он находится в файлах ниже; прилагается инструкция на английском.
 Edit High-Impact Mods|Разрешённые моды
 Edit Banned Mods|Запрещённые моды
@@ -234,6 +236,11 @@ Greedy|Жадный
 Flair|Стиль
 Enable Meadow Cosmetics|Включить косметику Meadow
 Log Level|Уровень записи логов
+Debug|Отладка
+Warn|Предупреждение
+Error|Ошибка
+Lobby Joining Timeout (seconds)|Тайм-аут входа в Лобби (сек)
+Lobby Joining Extra Info|Время ожидания входа в Лобби
 Global Mute|Глобальное отключение звука
 solid|солидный
 
